@@ -17,7 +17,7 @@ Unix is portable, multi-user, bug-fixing developed by AT&T. It is used in webser
 
 **Unix:**
 
-- Unix is developed yb AT & T
+- Unix is developed by AT & T
 - Licensing is required.
 - Smaller Community and takes time to solve the bug.
 - Only enterprise level you can’t find it on personal computers.
