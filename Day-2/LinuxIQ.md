@@ -49,8 +49,21 @@ using grep command
 Syntax: `grep [OPTION...] PATTERNS [FILE...]`
 Eg: `grep <string name> <file name>`
 
-### xi) Difference between egrep and grep ?
+### 11) Difference between egrep and grep ?
 
 A) In egrep, you can search for more than one strings at same time.
 
 Syntax: `egrep string1|string2|string3 <filename>`
+
+### 12. How can you read a file without using cat command ?
+
+A) Using less, more, vi commands
+Syntax: less <filename> To quit --> press q
+more <filename>
+vi <filename> To quit --> :q
+
+- Less command is adavtangeous, because we can easily read the big files. Forward and backward search is easy.Navigation from top to bottom is easy.
+
+### 13. How to check a file's permission ?
+
+A) ls -l ,ll , getfacl file_name
