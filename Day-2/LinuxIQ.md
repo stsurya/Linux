@@ -136,3 +136,58 @@ A) cat file1 file2 > file3
 ## 28) How do you find the type of the file ?
 
 A) file file_name
+
+## 29) How to sort the file ?
+
+A) By using sort command.
+`sort <filename>`
+
+## 30) What are different types of permissions exist for a file ?
+
+A) Read, Write, Execute
+
+## 31) How to redirect an error into a file ?
+
+A) To redirect an error use 2>
+
+## 32) How to automate any task or script ?
+
+A) cronjob, command is crontab
+
+## 33) What is daemon service ?
+
+A) Service that keeps running in the background.
+Eg: httpd, sshd
+
+## 34) How to check service is runningor not ?
+
+A) systemctl status
+
+## 35) how to check disk space ?
+
+A) df
+
+## 36) how to check the size of directory content ?
+
+A) we use du command (du-->disk uitilization)
+
+## 37) How to check the CPU processes ?
+
+A) top command
+
+## 38) How to check the processes in linux ?
+
+A) ps
+
+## 39) How to stop a process ?
+
+A) kill command
+kill -9 forcefull turn off the process.
+
+## 40) How to check whther you're able to access the other server or not ?
+
+A) PING or telnet command.
+
+## 41) How to get info about ports ?
+
+A) netstat
