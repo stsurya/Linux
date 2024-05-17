@@ -67,3 +67,34 @@ vi <filename> To quit --> :q
 ### 13. How to check a file's permission ?
 
 A) ls -l ,ll , getfacl file_name
+
+### 14. How to check IP of Linux Server ?
+
+A) ifconfig
+
+### 15. How to read the top 5lines in a file ?
+
+A) Head -5 <file_name>
+
+### 16. How to read the last 5lines in a file
+
+A) Tail -5 <file_name>
+
+### 17. How to list hidden files ?
+
+A) ls -la [Hidden files are always started with .]
+
+### 18. How to see all the recently used commands ?
+
+A) history
+
+### 19. What is root ?
+
+A) Amdin or super user.
+/root home directory for root user
+/root directory
+
+### 20) What is inode and how to find it for a file ?
+
+A) ls -li
+inode is an index node. It serves as unique Idenitifier for a specific metadata on the file system.
