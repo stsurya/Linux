@@ -187,6 +187,11 @@ kill -9 forcefull turn off the process.
 ## 40) How to check whther you're able to access the other server or not ?
 
 A) PING or telnet command.
+Packet InterNet Groper (PING)
+`ping 0` to ping the localhost.
+
+**Telnet** is used to establish a connection and access a remote computer's command line interface,
+while **Ping** is used to test the connectivity and response time between two devices on a network.
 
 ## 41) How to get info about ports ?
 
