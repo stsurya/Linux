@@ -191,3 +191,11 @@ A) PING or telnet command.
 ## 41) How to get info about ports ?
 
 A) netstat
+`NetStat` stands for network statistics. It allows users to display network-related information and diagnose various networking issues.
+
+- `netstat -all` shows both listening and non-listening sockets.
+- `netstat -at` lists all tcp ports.
+- `netstat -au` lists all udp ports.
+- `netstat -l` lists all the listening ports.
+- `netstat -lt` lists all the TCP ports which are in listening state.
+- `netstat -lu` lists all the UDP ports which are in listening state.
