@@ -60,5 +60,7 @@ A) Tar command is used to compress mulitple files/folder to a ZIP file.
 
 A) NameServerLookup(nslookup), is a command which we can use to query the DNS(Domain Name System) to obtain the IP address or domain.
 
+**notes:**
+
 - whatismyip on google will give you the public IP address provided by ISP, it'll be same for all who are using the router in home or office wifi.
 - ipconfig will give the local ip of your machine. when u send a request to internet, your local ip will take it your router with local IP, and then router will take it to internet from public IP which is provided by ISP.
