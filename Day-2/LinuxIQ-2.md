@@ -64,3 +64,40 @@ A) NameServerLookup(nslookup), is a command which we can use to query the DNS(Do
 
 - whatismyip on google will give you the public IP address provided by ISP, it'll be same for all who are using the router in home or office wifi.
 - ipconfig will give the local ip of your machine. when u send a request to internet, your local ip will take it your router with local IP, and then router will take it to internet from public IP which is provided by ISP.
+
+## 13) What is the use of At command ?
+
+A) Command used to schedule a task once.
+
+## 14) What are the links in linux ?
+
+A) connection between a file name and the actual data on the disk. we can call this shortcut.
+
+## 15) Differences between Soft and Hard link.
+
+A) Soft link: link will be removed if original file removed or deleted. ls -s
+Hard link: Renaming, Deleting or removing the file will not effect the link, ls
+
+## 16) How can you print all the environment variables ?
+
+A) Using env or printenv command.
+
+## 17) What are the different ways to set environment variables ?
+
+A) At user level:
+Temporary, permanent
+
+At global level.
+
+## 18) How can you see %CPU and %Memory geeting used ?
+
+A) use top command.
+
+## 19) If you want to run the process even after closing the terminal, which command you'll use ?
+
+A) nohup command
+`nohup process &`
+
+## 20) How to see all active jobs ?
+
+A) jobs command
