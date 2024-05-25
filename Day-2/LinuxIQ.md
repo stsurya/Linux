@@ -1,6 +1,6 @@
 ## i) How can you set a username and password to never expires ?
 
-A) chage -M -1 <password>
+A) change -M -1 <password>
 
 ## ii) What is the use of echo command ?
 
@@ -74,11 +74,11 @@ A) ifconfig
 
 ## 15. How to read the top 5lines in a file ?
 
-A) Head -5 <file_name>
+A) head -5 <file_name>
 
 ## 16. How to read the last 5lines in a file
 
-A) Tail -5 <file_name>
+A) tail -5 <file_name>
 
 ## 17. How to list hidden files ?
 
@@ -90,7 +90,7 @@ A) history
 
 ## 19. What is root ?
 
-A) Amdin or super user.
+A) Admin or super user.
 /root home directory for root user
 /root directory
 
