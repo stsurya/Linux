@@ -114,4 +114,25 @@ A) `su - <username>` and Enter the password of the user that you want to swtich 
 
 ## 23) Where can you see the list of users ?
 
-A) `sudo cat /etc/passwd` here you can see all the users of the system and in `/cat/shadow` users password will be stored in hashed key format.
+A) `sudo cat /etc/passwd` here you can see all the users of the system and in `/cat/shadow` users passwords will be stored in hashed key format.
+
+## 24) How to create a group in linux for users ?
+
+A) Use command `sudo groupadd <groupname>` this command will create a empty group.
+
+## 25) How to add users to the existing group ?
+
+A) Use command `sudo usermod -aG <groupname> <username>`. This command will add the user to the group without removing the user from other groups.
+
+## 26) Only sudo(superuser) can create groups ?
+
+A) Yes, because all the groups are created at /etc/group which is at root level.
+
+## 27) how can you a user belongs to which group ?
+
+A) at root level use this command `groups <username>`
+
+- the output will be like this `<username> : <username> <group1> <group2> .....`
+- In the output you're seeing the username tww times, the frist is normal username, the second one is the group created by default, it's called primary group. Every user in linux will be having a group with the username itself.
+- This is created for securtiy purposes, When a user creates a file or directory, the file is assigned to the user's primary group by default. This helps manage file ownership and access permissions in a multi-user environment.
+- For example, if user's primary group is user, any files user creates will belong to the user group unless explicitly changed.
