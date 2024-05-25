@@ -159,3 +159,14 @@ A) `sudo usermod -aG sudo <username>`
 ## 32) A sudo user can delete himself ?
 
 A) No, sudo user cannot delete him/her self.
+
+## 33) How to reset the password if a user forgets his/her password ?
+
+A) `sudo passwd <username>`
+
+- If you execute the above command it'll prompt you to enter a new password.
+- You need to be sudo user to execture the abovr command.
+
+## 34) What if we've only one sudo user and that user forgets the password ?
+
+A) It'll be hard to recover then, you need to reboot your system and execute few commands while rebooting by referring official docs of linux flavour.
