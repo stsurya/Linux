@@ -107,7 +107,7 @@ A) jobs command
 A) You can set this in two ways:
 
 - `sudo useradd <username>` won't ask for password and other details. This is non-interactive.
-- `sudo adduser <username>` and few other details will be prompted and enter those details.
+- `sudo adduser <username>` will ask for passowrd and it is more user-friendly and suitable for standard user setups
 
 ## 22) How to switch from one user to another user in linux ?
 
@@ -155,3 +155,7 @@ A) `sudo groupdel <groupname>`
 ## 31) How can you make a normal user a sudo user ?
 
 A) `sudo usermod -aG sudo <username>`
+
+## 32) A sudo user can delete himself ?
+
+A) No, sudo user cannot delete him/her self.
