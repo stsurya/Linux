@@ -104,7 +104,10 @@ A) jobs command
 
 ## 21) How to add a user in linux VM ?
 
-A) `sudo adduser <username>` and few other details will be prompted and enter those details.
+A) You can set this in two ways:
+
+- `sudo useradd <username>` won't ask for password and other details. This is non-interactive.
+- `sudo adduser <username>` and few other details will be prompted and enter those details.
 
 ## 22) How to switch from one user to another user in linux ?
 
@@ -124,11 +127,11 @@ A) Use command `sudo groupadd <groupname>` this command will create a empty grou
 
 A) Use command `sudo usermod -aG <groupname> <username>`. This command will add the user to the group without removing the user from other groups.
 
-## 26) Only sudo(superuser) can create groups ?
+## 26) Only sudo(superuser) can create groups/users ?
 
 A) Yes, because all the groups are created at /etc/group which is at root level.
 
-## 27) how can you a user belongs to which group ?
+## 27) how can you know a user belongs to which group ?
 
 A) at root level use this command `groups <username>`
 
@@ -136,3 +139,19 @@ A) at root level use this command `groups <username>`
 - In the output you're seeing the username tww times, the frist is normal username, the second one is the group created by default, it's called primary group. Every user in linux will be having a group with the username itself.
 - This is created for securtiy purposes, When a user creates a file or directory, the file is assigned to the user's primary group by default. This helps manage file ownership and access permissions in a multi-user environment.
 - For example, if user's primary group is user, any files user creates will belong to the user group unless explicitly changed.
+
+## 28) How can you remove the user from a group ?
+
+A) `sudo gpasswd -d <username> <groupname>`
+
+## 29) how can you delete a user in linux ?
+
+A) `sudo userdel <username>`
+
+## 30) how can you delete a group in linux ?
+
+A) `sudo groupdel <groupname>`
+
+## 31) How can you make a normal user a sudo user ?
+
+A) `sudo usermod -aG sudo <username>`
