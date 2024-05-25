@@ -101,3 +101,17 @@ A) nohup command
 ## 20) How to see all active jobs ?
 
 A) jobs command
+
+## 21) How to add a user in linux VM ?
+
+A) `sudo adduser <username>` and few other details will be prompted and enter those details.
+
+## 22) How to switch from one user to another user in linux ?
+
+A) `su - <username>` and Enter the password of the user that you want to swtich to.
+
+- If you want to switch to root user then also same `su - <rootusername>`
+
+## 23) Where can you see the list of users ?
+
+A) `sudo cat /etc/passwd` here you can see all the users of the system and in `/cat/shadow` users password will be stored in hashed key format.
