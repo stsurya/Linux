@@ -170,3 +170,7 @@ A) `sudo passwd <username>`
 ## 34) What if we've only one sudo user and that user forgets the password ?
 
 A) It'll be hard to recover then, you need to reboot your system and execute few commands while rebooting by referring official docs of linux flavour.
+
+## 35) How to make a sudo user to normal user ?
+
+A) `sudo deluser <username> sudo`
