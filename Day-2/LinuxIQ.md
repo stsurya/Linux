@@ -1,6 +1,6 @@
 ## i) How can you set a username and password to never expires ?
 
-A) change -M -1 <password>
+A) chage -M -1 <password>
 
 ## ii) What is the use of echo command ?
 
