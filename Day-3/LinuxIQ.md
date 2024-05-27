@@ -72,3 +72,15 @@ A) sshd is the SSH daemon that allows secure remote connections to the server.
 ## 17) How do you check the status of a system in linux ?
 
 A) by using `systemctl status <servicename>`
+
+## 18) 'Find' command in linux ?
+
+A) `find [path-to-file] -name <filename>`
+
+## 19) How can you how much size a file is occupying //
+
+A) `du -h <filename>` it'll give you the size of the file
+
+## 20) What is package manager in linux ?
+
+A) A package manager is a collection of tools that automates the process of installing, upgrading, configuring, removing software packages in consistent manner.
