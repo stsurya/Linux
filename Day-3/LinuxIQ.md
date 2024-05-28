@@ -84,3 +84,35 @@ A) `du -h <filename>` it'll give you the size of the file
 ## 20) What is package manager in linux ?
 
 A) A package manager is a collection of tools that automates the process of installing, upgrading, configuring, removing software packages in consistent manner.
+
+## 21) How shell script starting line looks like ?
+
+A) `#1/bin/bash`
+
+## 22) What is the use of nohup command ?
+
+A) nohup command is used to run a command/script in the background even after logging out from the shell.
+
+## 23) What is the purpose of /var directory ?
+
+A) The /var directory contains variable data like system logs, temporary files required for running applications.
+
+## 24) What is the purpose of /etc/hosts ?
+
+A) It us used to map hostnames to IP addresses.
+
+## 25) How do you change the hostname of linux system ?
+
+A) You can use `hostnamectl` command or by editing `/etc/hostname` file.
+
+## 26) Explain the purpose of netstat command ?
+
+A) netstat is used to display the network connections of the linux system.
+
+## 27) What are Cron jobs ?
+
+A) Cron jobs automate repetitve tasks, ensuring they run at scheduled times without manual intervention.
+
+## 28) How does cron work ?
+
+A) Cron uses a daemon(a background process) called cron to execute the scheduled tasks. The configuration for these tasks is stored in a filec called crontab.
