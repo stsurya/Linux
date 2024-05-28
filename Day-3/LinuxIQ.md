@@ -115,4 +115,21 @@ A) Cron jobs automate repetitve tasks, ensuring they run at scheduled times with
 
 ## 28) How does cron work ?
 
-A) Cron uses a daemon(a background process) called cron to execute the scheduled tasks. The configuration for these tasks is stored in a filec called crontab.
+A) Cron uses a daemon(a background process) called cron to execute the scheduled tasks. The configuration for these tasks is stored in a file called crontab.
+
+## 29) Basic Cron Job fromat
+
+A)
+![Image missing](../Images/CronFormat.PNG)
+
+## 30) How to list all crontab jobs ?
+
+A) crontab -l
+
+## 31) How to create crontab ?
+
+A) crontab -e
+
+- a editor will open.
+- `<cronjob format> <path of the script>`
+- see file `cronpoc.sh`
