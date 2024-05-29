@@ -133,3 +133,46 @@ A) crontab -e
 - a editor will open.
 - `<cronjob format> <path of the script>`
 - see file `cronpoc.sh`
+
+## 32) How to print all the environment variables ?
+
+A) just type `env` on terminal.
+
+## 33) How to print a specific env variable ?
+
+A) `printenv <variablename>`
+
+## 34) What is environment variable ?
+
+A) The environment variables are dynamic values that are stored within a system and used by applications launched in shells or sub-shells.
+
+## 35) How to set and access environment variables ?
+
+A)
+
+- To set env variable `export NAME=VALUE`
+- To access env variable in other commands eg: `echo $NAME`
+- These values will be avaiable only when your terminal is up and running, when close and open the terminal or shutdown you laptop and re-open it these variables will be disappeared.
+
+## 36) How to delete env variables ?
+
+A) Use `unset <variablename>`
+
+## 37) How to set User persistent variables ?
+
+A)
+
+- Open the terminal.
+- Edit the user-specific file (e.g., ~/.bashrc) using a text editor. type cmd `nano .bashrc`
+- Insert the variable in the file with the export statement:
+
+```
+export NAME=Value
+```
+
+- Save and close the file.
+- Activate the changes using:
+
+```
+$ source .bashrc
+```
