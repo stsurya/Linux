@@ -176,3 +176,15 @@ export NAME=Value
 ```
 $ source .bashrc
 ```
+
+## 38) How to set Global Persistent Variables ?
+
+A) For this u need to have access to /etc folder
+
+```
+nano environment
+```
+
+A file will open and set you env variable as `export Name=Value` save and exit now.
+
+do `source environment` now
