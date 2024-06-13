@@ -32,7 +32,7 @@ Kernl loads into memory of first when an operating system is loaded and remains 
 Types of Kernel:
 
 - Monolithic Kernel: Here all operating system services operate in kernel space. It has huge lines of code. Eg: Linux
-- Microkernel: Less services run in Kernel space, It puts rest in kernel space.
+- Microkernel: Less services run in Kernel space, It puts rest in user space.
 - Hybrid Kernel: It’s a combination of monolithic and micro, They maintain a small kernel space containing essential services like process management and memory allocation while placing device drivers and other non-essential components in user space.
   Reference: https://www.geeksforgeeks.org/kernel-in-operating-system/
 
