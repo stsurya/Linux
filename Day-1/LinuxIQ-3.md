@@ -208,3 +208,57 @@ Suppose there exist a file name with some special character in it. For example: 
 Try to remove it normally using rm command, you will not be able to remove it.
 However using the inode number of this file you can remove it.
 `$ find . -inum 1448239 -exec rm -i {} \;`
+
+## Find command
+
+- **Find Files Using Name:** This example finds all files with name — MyCProgram.c in the current directory and all its sub-directories.
+
+```
+find -name "MyCProgram.c"
+./backup/MyCProgram.c
+./MyCProgram.c
+```
+
+- **Find Files Using Name and Ignoring Case:** This example finds all files with name — MyCProgram.c (ignoring the case) in the current directory and all its sub-directories.
+
+````
+find -iname "MyCProgram.c"
+./mycprogram.c
+./backup/mycprogram.c
+./backup/MyCProgram.c
+./MyCProgram.c```
+````
+
+- **Limit Search To Specific Directory Level Using mindepth and maxdepth:** Find the passwd file under all sub-directories starting from root directory
+
+```
+find / -name passwd
+./usr/share/doc/nss_ldap-253/pam.d/passwd
+./usr/bin/passwd
+./etc/pam.d/passwd
+./etc/passwd
+```
+
+Find the passwd file under root and one level down. (i.e root — level 1, and one sub-directory — level 2)
+
+````
+find -maxdepth 2 -name passwd
+./etc/passwd```
+````
+
+Find the passwd file under root and two levels down. (i.e root — level 1, and two sub-directories — level 2 and 3 )
+
+```
+find / -maxdepth 3 -name passwd
+./usr/bin/passwd
+./etc/pam.d/passwd
+./etc/passwd
+```
+
+Find the password file between sub-directory level 2 and 4.
+
+```
+find -mindepth 3 -maxdepth 5 -name passwd
+./usr/bin/passwd
+./etc/pam.d/passwd
+```
