@@ -188,3 +188,8 @@ nano environment
 A file will open and set you env variable as `export Name=Value` save and exit now.
 
 do `source environment` now
+
+### 39) what happens when a linux system boots and till your login attempt ?
+
+There are two sequences that are required to boot a linux system, they're boot and startup. Boot is the first step when the computer turned on and is completed when the kernel is intialized and get the systemd launched.
+The startup process then takes over and finishes the task of getting the Linux computer into an operational state.
