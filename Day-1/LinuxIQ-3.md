@@ -193,3 +193,18 @@ do `source environment` now
 
 There are two sequences that are required to boot a linux system, they're boot and startup. Boot is the first step when the computer turned on and is completed when the kernel is intialized and get the systemd launched.
 The startup process then takes over and finishes the task of getting the Linux computer into an operational state.
+
+## 40) Explain about Inodes.
+
+- When a file is created inside a direcotry then file name and Inode number are assigned to a file.
+- When a user tries to access the file or any information related to the file then he/she uses the file name to do so but internally the file-name is first mapped with its Inode number stored in a table.
+
+ls -i can be used to check the inode number of files.
+df -i can be used to check the inode information of file system.
+
+### Usage Scenario of an Inode number
+
+Suppose there exist a file name with some special character in it. For example: “ab\*
+Try to remove it normally using rm command, you will not be able to remove it.
+However using the inode number of this file you can remove it.
+`$ find . -inum 1448239 -exec rm -i {} \;`
