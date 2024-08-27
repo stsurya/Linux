@@ -273,3 +273,11 @@ find -maxdepth 1 -not -iname "MyCProgram.c"
 ./backup
 ./Program.c
 ```
+
+- **Find Files by Size:**
+  Find files bigger than the given size
+  `find ~ -size +100M`
+  Find files smaller than the given size
+  `find ~ -size -100M`
+  Find files that matches the exact given size
+  `find ~ -size 100M`
