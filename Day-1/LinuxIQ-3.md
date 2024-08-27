@@ -262,3 +262,14 @@ find -mindepth 3 -maxdepth 5 -name passwd
 ./usr/bin/passwd
 ./etc/pam.d/passwd
 ```
+
+- **Inverting the match:** Shows the files or directories whose name are not MyCProgram.c .Since the maxdepth is 1, this will look only under current directory.
+
+```
+find -maxdepth 1 -not -iname "MyCProgram.c"
+.
+./MybashProgram.sh
+./create_sample_files.sh
+./backup
+./Program.c
+```
