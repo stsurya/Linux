@@ -134,6 +134,10 @@ A) crontab -e
 - `<cronjob format> <path of the script>`
 - see file `cronpoc.sh`
 
+## How to remove the crontab ?
+
+A) crontab -r
+
 ## 32) How to print all the environment variables ?
 
 A) just type `env` on terminal.

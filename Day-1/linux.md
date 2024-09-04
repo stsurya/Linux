@@ -28,7 +28,7 @@ While Unix and Linux have similarities but they’ve key differences in terms of
 
 The major aim of kernel is to manage the communication between software i.e., user-level applications and hardware i.e., CPU and memory.
 It’s responsible for various tasks such as disk management, task management and memory management.
-Kernl loads into memory of first when an operating system is loaded and remains into memory until it’s shutdown.
+Kernel loads into memory of first when an operating system is loaded and remains into memory until it’s shutdown.
 Types of Kernel:
 
 - Monolithic Kernel: Here all operating system services operate in kernel space. It has huge lines of code. Eg: Linux
@@ -45,3 +45,7 @@ Shell scripting is scripting in any shell, whereas Bash scripting is scripting s
 Allows you to create a link between files and directories, making it easier to access and manage your files.
 
 Linux Commands: https://www.digitalocean.com/community/tutorials/linux-commands
+
+### 7. How will you check the version of your operating system ?
+
+cat /etc/os-release
