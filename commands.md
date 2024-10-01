@@ -131,12 +131,12 @@ file, can be "scanned" to see what files and sub-directories are in it.
    designated as the first three letters of the userid of the owner.
 3. Everybody else who has an account on the UNIX machine where the file resides.
 
-**Column 2 -** Number of links
+**Column 2 -** Number of links. <br>
 **Column 3 -** Owner of the file. Normally the owner of the file is the user account that originally
-created it.
+created it.<br>
 **Column 4 -** Group under which the file belongs. This is by default the group to which the
 account belongs or first three letters of the userid. The group can be changed by the chgrp
-command.
-**Column 5 -** Size of file (bytes).
-**Column 6 -** Date of last update
-**Column 7 -** Name of file
+command.<br>
+**Column 5 -** Size of file (bytes)<br>
+**Column 6 -** Date of last update<br>
+**Column 7 -** Name of file.
