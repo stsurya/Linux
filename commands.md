@@ -108,7 +108,35 @@ It will show the ouput in Gegabytes.
 **free -m**
 It will show the output in Megabytes.
 
-## df -h
+### df -h
 
 `df -h`
 The df command displays information about total space and available space on a file system.
+
+### ls -l
+
+displays the long listing of files
+
+**Column 1-** tells us the type of file, what privileges it has and to whom these privileges are
+granted. There are three types of privileges. Read and write privileges are easy to understand.
+The exec privilege is a little more difficult. We can make a file "executable" by giving it exec
+privileges. This means that commands in the file will be executed when we type the file name in
+at the UNIX prompt. It also means that when a directory which, to UNIX is a file like any other
+file, can be "scanned" to see what files and sub-directories are in it.
+
+![Image Missing](./Images/rwx.PNG)
+
+1. The owner of the file. The owner is usually, but not always, the userid that created the file.
+2. The group to which the owner belongs. At GSU, the group is usually, but not always
+   designated as the first three letters of the userid of the owner.
+3. Everybody else who has an account on the UNIX machine where the file resides.
+
+**Column 2 -** Number of links
+**Column 3 -** Owner of the file. Normally the owner of the file is the user account that originally
+created it.
+**Column 4 -** Group under which the file belongs. This is by default the group to which the
+account belongs or first three letters of the userid. The group can be changed by the chgrp
+command.
+**Column 5 -** Size of file (bytes).
+**Column 6 -** Date of last update
+**Column 7 -** Name of file

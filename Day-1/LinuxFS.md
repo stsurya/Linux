@@ -7,7 +7,8 @@
 ![Image missing](../Images/LinuxFileSystem.webp)
 
 - **/bin:** Contains essential user binaries(executable) such as common commands like ls,cp e.t.c
-- **/etc:** Holds system configuration files. (Users, Services e.t.c)
+- **/etc:** Contains all system configuration files and the files which maintain information
+  about users and groups.
 - **/home:** Contain the personal directories of all users.
 - **/root:** The home directory for the root user.
 - **/var:** where variable data such as logs and databases are stored.
