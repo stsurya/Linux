@@ -107,3 +107,8 @@ It will show the output in Kilobytes.
 It will show the ouput in Gegabytes.
 **free -m**
 It will show the output in Megabytes.
+
+## df -h
+
+`df -h`
+The df command displays information about total space and available space on a file system.
