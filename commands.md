@@ -140,3 +140,40 @@ command.<br>
 **Column 5 -** Size of file (bytes)<br>
 **Column 6 -** Date of last update<br>
 **Column 7 -** Name of file.
+
+### ls -a:
+
+Shows us all files, even files that are hidden (these files begin with a dot.)
+
+### more
+
+It's used to view the contents of a file.
+
+### cp
+
+cp command copies file or group of files.It creates exact image of the file on disk with
+dirrraent name. The syntax requires at leasr two filenames to be specified in the command
+line.When both are ordinary files,the first is copied to second:
+
+`cp file1 file2`
+
+cp can also be used to copy more than one file with a single invocation of the command.In
+that case the last filename must be a directory.you can use the cp command as follows.
+
+`cp file1 file2 file3 backup`
+Where the backup is a directory.
+
+### mv
+
+mv command has two distincts functions.
+• It renames file(or directory)
+• It moves a group of files to diffrant directory
+mv doesn't create a copy of the file but it renames the file.No additional space is consumed on
+disk during renaming.To rename the file hello.sh to welcome.sh use the following command.
+`mv hello.sh welcome.sh`
+
+### rm
+
+The rm command deletes one or more files.It normally operates silently and should be used
+with caution.
+`rm file1 file2`
