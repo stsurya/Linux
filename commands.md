@@ -177,3 +177,56 @@ disk during renaming.To rename the file hello.sh to welcome.sh use the following
 The rm command deletes one or more files.It normally operates silently and should be used
 with caution.
 `rm file1 file2`
+
+### Backslash
+
+The backslash character (\) has two uses (note this differs from the frontslash (/) character).
+The first use is for line continuation. If a line of shell commands becomes exceedingly long, it
+may be useful to continue it across more than one line. Note that if you choose to do this, the
+split cannot be in the middle of a word, it must be done in appropriate whitespace.
+The second (and perhaps more useful) use of the backslash character is to remove the special
+meaning of the following single character. This is sometimes referred to as escaping the special
+meaning of the following character. Characters that have special meaning are referred to as
+metacharacters (there are many of these in Unix).
+
+**Example:**
+For example, if we wanted to output a statement to describe
+the use of the $? variable, we could try and observe:
+`echo The $? variable returns the child exit status` [Enter]
+The 0 variable returns the child exit status
+where what we really want is:
+`echo The \$? variable returns the child exit status` [Enter]
+The $? variable returns the child exit status
+
+### Back Quotes
+
+The back quotation mark character (i.e. `) when used in pairs enclosing a command serve to
+perform command substitution. That is, when used as follows:
+ `command`
+the output of command is substituted at the location of the leftmost backquote. Note that
+these are not the same character as the single quote mark. For example, if we wanted to
+output:
+My current directory is: current directory location
+we could try the following:
+
+```
+echo My current directory is: pwd [Enter]
+But this would result in:
+ My current directory is: pwd
+```
+
+```
+ echo My current directory is: `pwd` [Enter]
+ My current directory is: /home/mthomas
+```
+
+### Single Quotes
+
+Single quotes (not to be confused with the back quotes) serve to remove (escape) the special
+meaning of all characters enclosed by them. Thus, the following statement would work as
+follows:
+
+```
+ echo 'My current directory is: `pwd`' [Enter]
+ My current directory is: `p
+```
