@@ -92,3 +92,18 @@ which field is desired. The allowed field
 **-s datestr** Sets the time and date to the value specified in the datestr. The datestr may
 contain the month names, timezones, 'am', 'pm', etc. See examples for an example of how the
 date and time can be set.
+
+### free
+
+Display amount of free and used memory in the system.
+It displays the total amount of free and used physical and swap memory in the system, as well
+as the buffers used by the kernel.The shared memory column should be ignored; it is obsolete.
+In above output the memory description which is displayed it is in bytes.If user wants to display
+it in required format that is in GB,MB or KB.
+Command Options.
+**free -k**
+It will show the output in Kilobytes.
+**free -g**
+It will show the ouput in Gegabytes.
+**free -m**
+It will show the output in Megabytes.
