@@ -270,3 +270,21 @@ flag. For uncompressed archives the extract command looks like this:
 `tar -xvf my-archive.tar`
 For compressed archives the tar extract command looks like this:
 `tar -xzvf my-archive.tar.gz`
+
+### What is the difference between zip and tar ?
+
+**1. Functionality**
+**zip:** Combines multiple files into a single compressed file and compresses them simultaneously. It creates a compressed archive, meaning it both archives (combines files) and compresses them in one step.
+**tar (Tape Archive):** Primarily an archiving tool that combines multiple files into a single archive file, without compression by default. If compression is needed, tar is often combined with other tools like gzip (.tar.gz) or bzip2 (.tar.bz2).
+**2. Compression**
+**zip:** Compresses each file individually inside the archive. This allows for faster access to individual files in the archive because they can be uncompressed independently.
+**tar:** When used with compression (e.g., tar.gz), the entire archive is compressed as a whole. This often results in better compression ratios than zip, but accessing an individual file can be slower since the entire archive needs to be decompressed first.
+**3. File Extensions**
+**zip:** Produces files with a .zip extension.
+**tar:** Produces a .tar file, and if compression is applied, the extensions are typically .tar.gz or .tar.bz2.
+**4. Compression Algorithms**
+**zip:** Uses the DEFLATE algorithm for compression.
+**tar:** When compressed, tar can use various compression algorithms, such as gzip (for .tar.gz files) or bzip2 (for .tar.bz2 files). You can also use modern compression methods like xz (.tar.xz).
+**5. Usage**
+**zip:** Commonly used for compressing and sharing files across different platforms (Linux, Windows, macOS).
+**tar:** Typically used on Unix/Linux systems for archiving and compressing files, especially when creating backups or transferring directories.
