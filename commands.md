@@ -230,3 +230,43 @@ follows:
  echo 'My current directory is: `pwd`' [Enter]
  My current directory is: `p
 ```
+
+### tar command
+
+A common use of the Linux tar command is to create an archive of a subdirectory. For instance,
+assuming there is a subdirectory named MyProject in the current directory,
+
+In that command, I used three options to create the tar archive:
+• The letter c means "create archive".<br>
+• The letter v means "verbose", which tells tar to print all the filenames as they are added
+to the archive.<br>
+• The letter f tells tar that the name of the archive appears next (right after these
+options). <br>
+
+**syntax:**
+`tar [flags] archive-file-name files-to-archive`
+**Example:**
+`tar -cvf MyProject.20090816.tar MyProject`
+
+**Creating a compressed file:**
+
+`tar -czvf MyProject.20090816.tgz MyProject`
+
+As you can see, I added the 'z' flag there (which means "compress this archive with gzip"), and I
+changed the extension of the archive to .tgz, which is the common file extension for files that
+have been tar'd and gzip'd in one step.
+
+**tar list example:**
+To list the contents of an uncompressed tar archive, just replace the c flag with the t flag, like
+this:
+`tar -tvf my-archive.tar`
+
+To list all the files in a compressed archive, add the z flag like before:
+`tar -tzvf my-archive.tar.gz`
+
+**tar extract example - extracting an archive**
+To extract the contents of a Linux tar archive, now just replace the t flag with the x ("extract")
+flag. For uncompressed archives the extract command looks like this:
+`tar -xvf my-archive.tar`
+For compressed archives the tar extract command looks like this:
+`tar -xzvf my-archive.tar.gz`
