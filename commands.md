@@ -344,7 +344,7 @@ tail -f --pid=1234 logfile.txt  # Follow logfile.txt until process 1234 terminat
 The tr command in Linux is used for translating, replacing, or deleting characters from standard input and writing the result to standard output. It operates on single characters and can be used for simple transformations or deletions of characters.
 
 **Syntax:**
-`tr [OPTION] SET1 [SET2]`
+`tr [OPTION] SET1 [SET2]`<br>
 SET1: A set of characters to replace or delete.<br>
 SET2: A set of characters that will replace corresponding characters from SET1. If SET2 is omitted, characters from SET1 are deleted.<br>
 
