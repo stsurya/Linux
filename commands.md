@@ -288,3 +288,53 @@ For compressed archives the tar extract command looks like this:
 **5. Usage**<br>
 **zip:** Commonly used for compressing and sharing files across different platforms (Linux, Windows, macOS).<br>
 **tar:** Typically used on Unix/Linux systems for archiving and compressing files, especially when creating backups or transferring directories.<br>
+
+### Head Command:
+
+The head command in Linux is used to display the first few lines of a file or the output of a command. By default, it prints the first 10 lines, but you can customize the number of lines using options.
+**Syntax:**
+`head [OPTION]... [FILE]...`
+
+Common Options:
+
+```
+-n <number>: Specifies the number of lines to display.
+head -n 5 filename.txt  # Display the first 5 lines
+```
+
+```
+-c <number>: Specifies the number of bytes to display.
+head -c 20 filename.txt  # Display the first 20 bytes
+```
+
+### Tail Command
+
+The tail command in Linux is used to display the last part (usually the last 10 lines) of a file or the output of a command. It's commonly used to monitor log files in real-time or check the last few lines of a file.
+
+**Syntax:**
+
+```
+tail [OPTION]... [FILE]...
+```
+
+Common Options:
+
+```
+-n <number>: Displays the last <number> of lines.
+tail -n 20 filename.txt  # Display the last 20 lines
+```
+
+```
+-c <number>: Displays the last <number> of bytes.
+tail -c 50 filename.txt  # Display the last 50 bytes
+```
+
+```
+-f: Follows the file as it grows, useful for real-time log monitoring.
+tail -f logfile.txt  # Continuously display new lines added to the file
+```
+
+```
+--pid=<PID>: Allows the -f option to terminate when the process with the specified PID ends.
+tail -f --pid=1234 logfile.txt  # Follow logfile.txt until process 1234 terminates
+```
