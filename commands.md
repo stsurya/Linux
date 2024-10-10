@@ -338,3 +338,15 @@ tail -f logfile.txt  # Continuously display new lines added to the file
 --pid=<PID>: Allows the -f option to terminate when the process with the specified PID ends.
 tail -f --pid=1234 logfile.txt  # Follow logfile.txt until process 1234 terminates
 ```
+
+### tr command:
+
+The tr command in Linux is used for translating, replacing, or deleting characters from standard input and writing the result to standard output. It operates on single characters and can be used for simple transformations or deletions of characters.
+
+**Syntax:**
+`tr [OPTION] SET1 [SET2]`
+SET1: A set of characters to replace or delete.<br>
+SET2: A set of characters that will replace corresponding characters from SET1. If SET2 is omitted, characters from SET1 are deleted.<br>
+
+Direct file modification: tr doesn't modify files directly (like sed -i does). You either pipe the file's content or redirect it to tr.<br>
+You can use redirection or pipes to apply tr to the contents of a file and then save the output.<br>
