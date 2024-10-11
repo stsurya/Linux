@@ -385,3 +385,13 @@ sort [options] [filename]
 
 **Sorting and Saving Output to a File:** If you want to sort the contents of a file and save the sorted output to another file, you can redirect the output.<br>
 `sort file.txt > sorted_file.txt`
+
+### Uniq command:
+
+The uniq command in Linux is used to remove duplicate lines from a sorted file or input. However, unlike some other commands, uniq only removes adjacent duplicate lines. Therefore, for uniq to work correctly, the input data usually needs to be sorted first so that duplicate lines are adjacent to each other.<br>
+
+**Basic Syntax:**
+
+```
+uniq [options] [input_file] [output_file]
+```
