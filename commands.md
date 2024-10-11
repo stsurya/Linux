@@ -395,3 +395,12 @@ The uniq command in Linux is used to remove duplicate lines from a sorted file o
 ```
 uniq [options] [input_file] [output_file]
 ```
+
+uniq: Removes adjacent duplicates.<br>
+uniq -c: Counts occurrences of each line.<br>
+uniq -d: Displays only duplicate lines.<br>
+uniq -u: Displays only unique lines.<br>
+uniq -i: Ignores case when comparing.<br>
+uniq -f N: Ignores the first N fields.<br>
+uniq -s N: Ignores the first N characters.<br>
+uniq -w N: Compares only the first N characters.<br>
