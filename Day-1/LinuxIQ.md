@@ -68,6 +68,8 @@ vi <filename> To quit --> :q
 
 A) ls -l ,ll , getfacl file_name
 
+Refer: https://www.geeksforgeeks.org/ls-command-in-linux/
+
 ## 14. How to check IP of Linux Server ?
 
 A) ifconfig
