@@ -32,6 +32,15 @@ A) BASH, KSH (Korn shell)
 
 A) `chmod u=rwx,g=rw,o= <filename>`
 
+Giving execute permission to user<br>
+`chmod o+x xyz.txt`
+
+o - stands for other user<br>
+`+` - Indicatrs you're giving permission<br>
+x - indicates the execute eprmission<br>
+
+Refer: https://www.geeksforgeeks.org/how-to-set-file-permissions-in-linux/
+
 ## 9) What is a daemon in linux ?
 
 A) A daemon is a background process that runs continuously and typically starts at boot of system.

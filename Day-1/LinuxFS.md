@@ -13,3 +13,6 @@
 - **/root:** The home directory for the root user.
 - **/var:** where variable data such as logs and databases are stored.
 - **/tmp:** Temporary files created by system and users.
+- **/boot:** Boot loader files, e.g., kernels, initrd. Kernel initrd, vmlinux, grub files are located under /boot. Example: initrd.img-2.6.32-24-generic, vmlinuz-2.6.32-24-generic.
+- **/lib:** Libraries essential for the binaries in /bin/ and /sbin/. Library filenames are either ld* or lib*.so.\*
+- **/mnt:** emporarily mounted filesystems. Temporary mount directory where sysadmins can mount filesystems.
