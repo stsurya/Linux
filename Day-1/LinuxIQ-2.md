@@ -174,3 +174,13 @@ A) It'll be hard to recover then, you need to reboot your system and execute few
 ## 35) How to make a sudo user to normal user ?
 
 A) `sudo deluser <username> sudo`
+
+## 36) What is the difference between '/' and '/root' in linux ?
+
+**/ (Root Directory):**<br>
+
+The / directory is the root of the entire filesystem hierarchy. It is the top-level directory from which all other directories branch. All files and directories in Linux are organized under /. Important system directories like /bin, /etc, /usr, /home, etc., are located under /.<br>
+
+**/root (Root User's Home Directory):**<br>
+
+The /root directory is the home directory of the root user (the superuser with administrative privileges). It is a subdirectory of the root filesystem (/), but it is specifically used to store the root user's personal files, configurations, and data. It serves the same purpose for the root user as /home/username does for regular users.<br>
