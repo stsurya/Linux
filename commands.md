@@ -258,18 +258,18 @@ have been tar'd and gzip'd in one step.<br>
 
 **tar list example:**
 To list the contents of an uncompressed tar archive, just replace the c flag with the t flag, like
-this:
-`tar -tvf my-archive.tar`
+this:<br>
+`tar -tvf my-archive.tar`<br>
 
-To list all the files in a compressed archive, add the z flag like before:
-`tar -tzvf my-archive.tar.gz`
+To list all the files in a compressed archive, add the z flag like before:<br>
+`tar -tzvf my-archive.tar.gz`<br>
 
 **tar extract example - extracting an archive**<br>
 To extract the contents of a Linux tar archive, now just replace the t flag with the x ("extract")
-flag. For uncompressed archives the extract command looks like this:
-`tar -xvf my-archive.tar`
-For compressed archives the tar extract command looks like this:
-`tar -xzvf my-archive.tar.gz`
+flag. For uncompressed archives the extract command looks like this:<br>
+`tar -xvf my-archive.tar`<br>
+For compressed archives the tar extract command looks like this:<br>
+`tar -xzvf my-archive.tar.gz`<br>
 
 ### What is the difference between zip and tar ?
 
