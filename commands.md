@@ -236,25 +236,25 @@ follows:
 A common use of the Linux tar command is to create an archive of a subdirectory. For instance,
 assuming there is a subdirectory named MyProject in the current directory,
 
-In that command, I used three options to create the tar archive:
+In that command, I used three options to create the tar archive:<br>
 • The letter c means "create archive".<br>
 • The letter v means "verbose", which tells tar to print all the filenames as they are added
 to the archive.<br>
 • The letter f tells tar that the name of the archive appears next (right after these
 options). <br>
 
-**syntax:**
-`tar [flags] archive-file-name files-to-archive`
-**Example:**
-`tar -cvf MyProject.20090816.tar MyProject`
+**syntax:**<br>
+`tar [flags] archive-file-name files-to-archive`<br>
+**Example:**<br>
+`tar -cvf MyProject.20090816.tar MyProject`<br>
 
-**Creating a compressed file:**
+**Creating a compressed file:**<br>
 
-`tar -czvf MyProject.20090816.tgz MyProject`
+`tar -czvf MyProject.20090816.tgz MyProject`<br>
 
 As you can see, I added the 'z' flag there (which means "compress this archive with gzip"), and I
 changed the extension of the archive to .tgz, which is the common file extension for files that
-have been tar'd and gzip'd in one step.
+have been tar'd and gzip'd in one step.<br>
 
 **tar list example:**
 To list the contents of an uncompressed tar archive, just replace the c flag with the t flag, like
@@ -264,7 +264,7 @@ this:
 To list all the files in a compressed archive, add the z flag like before:
 `tar -tzvf my-archive.tar.gz`
 
-**tar extract example - extracting an archive**
+**tar extract example - extracting an archive**<br>
 To extract the contents of a Linux tar archive, now just replace the t flag with the x ("extract")
 flag. For uncompressed archives the extract command looks like this:
 `tar -xvf my-archive.tar`
