@@ -178,6 +178,10 @@ The rm command deletes one or more files.It normally operates silently and shoul
 with caution.
 `rm file1 file2`
 
+### Difference between ‘rmdir’ and ‘rm’ Command
+
+![Image Missing](./Images/rmdir.PNG)
+
 ### Backslash
 
 The backslash character (\) has two uses (note this differs from the frontslash (/) character).<br>
