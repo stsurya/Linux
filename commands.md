@@ -366,7 +366,7 @@ sort [options] [filename]
 ```
 
 **Examples:**
-**Basic Sorting:** This command sorts the lines in a file alphabetically.<br>
+**Basic Sorting:** This command sorts the lines in a file alphabetically.This command does not actually change the input file, i.e. file.txt <br>
 `sort file.txt`
 
 **Sorting in Reverse Order:** To sort in reverse (descending) order, use the -r option.<br>
