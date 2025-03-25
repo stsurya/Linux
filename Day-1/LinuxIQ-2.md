@@ -107,7 +107,7 @@ A) jobs command
 A) You can set this in two ways:
 
 - `sudo useradd <username>` won't ask for password and other details. This is non-interactive.
-- `sudo adduser <username>` will ask for passowrd and it is more user-friendly and suitable for standard user setups
+- `sudo adduser <username>` will ask for passowrd and it is more user-friendly and suitable for standard user setups.
 
 ## 22) How to switch from one user to another user in linux ?
 
@@ -184,3 +184,10 @@ The / directory is the root of the entire filesystem hierarchy. It is the top-le
 **/root (Root User's Home Directory):**<br>
 
 The /root directory is the home directory of the root user (the superuser with administrative privileges). It is a subdirectory of the root filesystem (/), but it is specifically used to store the root user's personal files, configurations, and data. It serves the same purpose for the root user as /home/username does for regular users.<br>
+
+## 36) how to give permission to file for a group
+
+- First that file should be owned by the group.
+  `sudo chown :devops myfile.txt`
+- Second give the respective permissions.
+  `sudo chmod g+rw myfile.txt`
