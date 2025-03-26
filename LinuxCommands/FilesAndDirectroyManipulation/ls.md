@@ -20,6 +20,7 @@ The ls command is used to list all files and directories in the Linux terminal. 
 | `ls -F` | Append indicators (`/`, `*`, `@`, `    | `) to files | `ls -F` |
 | `ls -h` | Human-readable sizes (works with `-l`) | `ls -lh`    |
 | `ls -i` | Show inode numbers of files            | `ls -i`     |
+| `ls -1` | Display One File Per Line Using        | `ls -1`     |
 
 ---
 
@@ -32,3 +33,5 @@ The ls command is used to list all files and directories in the Linux terminal. 
 | `ls -r`          | Reverse order                            | `ls -lr`         |
 | `ls -X`          | Sort by extension                        | `ls -lX`         |
 | `ls --sort=size` | Sort by size                             | `ls --sort=size` |
+
+`ls -l`: It display the deatiled info like Permissions, Owner, Group, Size, Last Modified Time and File Name.
