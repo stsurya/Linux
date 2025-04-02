@@ -1,4 +1,4 @@
-### tar command
+## tar command
 
 A common use of the Linux tar command is to create an archive of a subdirectory. For instance,
 assuming there is a subdirectory named MyProject in the current directory,
