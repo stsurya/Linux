@@ -21,6 +21,8 @@ S: Process status (S: Sleeping, R: Running, I: Idle)<br>
 TIME+: Total CPU time<br>
 COMMAND: Command or process name<br>
 
-- `htop` is an interactive process viewer for Linux that provides a visually appealing and feature-rich alternative to the traditional `top` command.
+- `htop` is an interactive process viewer for Linux that provides a visually appealing and feature-rich alternative to the traditional `top` command.<br>
 
-- `atop` is a powerful and interactive system and process monitor for Linux that provides detailed information about system resources and processes.
+- `atop` is a powerful and interactive system and process monitor for Linux that provides detailed information about system resources and processes.<br>
+
+**Summary:**For instance, ps provides a snapshot of processes, while top and htop offer real-time monitoring. atop gives detailed insights, and pgrep finds processes based on criteria.
