@@ -8,6 +8,6 @@
 **path:** Starting directory for the search.<br>
 **Example:** find /path/to/search<br>
 
-✅ Recursively means find searches inside subdirectories automatically.
-✅ You don’t have to manually specify subdirectories.
-✅ You can limit recursion using -maxdepth and -mindepth.
+✅ Recursively means find searches inside subdirectories automatically.<br>
+✅ You don’t have to manually specify subdirectories.<br>
+✅ You can limit recursion using -maxdepth and -mindepth.<br>
