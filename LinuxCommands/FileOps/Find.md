@@ -18,3 +18,11 @@
 if you're in `/home/user/Documents` and want to search for files in `/home/user/Downloads`<br>
 
 `find ../Downloads -name "*.txt"` or `find /home/user/Downloads -name "*.txt"`
+
+## Searching in multiple folders
+
+`find ../Documents ../Downloads -name "filename.txt"`
+
+## Seaching in current directory
+
+`find ./ -name "*txt"`
