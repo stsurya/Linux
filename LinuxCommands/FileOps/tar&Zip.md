@@ -62,12 +62,17 @@ For compressed archives the tar extract command looks like this:<br>
 
 **Example:** zip ./opt.zip opt
 
-- In above, ./opt.zip is zip file name and opt is the orginal directory.
+- In above, ./opt.zip is zip file name and opt is the orginal directory.<br>
+
+## unzip command
+
+- unzip will list, test, or extract files from a ZIP archive.<br>
+  `unzip [file_name.zip]`
 
 ## gzip command
 
 - The gzip command in Linux is a versatile tool for compressing and decompressing files. By learning how to use gzip and its various options, you can easily manage file sizes, create compressed archives, and optimize storage on your Linux system.<br>
-- Mastering the gzip command will make file management more efficient and help you save disk space, especially when dealing with large files or backups.
+- Mastering the gzip command will make file management more efficient and help you save disk space, especially when dealing with large files or backups.<br>
 
 `gzip [Options] [filenames]`
 
