@@ -55,3 +55,16 @@ For compressed archives the tar extract command looks like this:<br>
 **5. Usage**<br>
 **zip:** Commonly used for compressing and sharing files across different platforms (Linux, Windows, macOS).<br>
 **tar:** Typically used on Unix/Linux systems for archiving and compressing files, especially when creating backups or transferring directories.<br>
+
+## zip command
+
+`zip [options] zipfile files/directories`
+
+**Example:** zip ./opt.zip opt
+
+- In above, ./opt.zip is zip file name and opt is the orginal directory.
+
+## gzip command
+
+- The gzip command in Linux is a versatile tool for compressing and decompressing files. By learning how to use gzip and its various options, you can easily manage file sizes, create compressed archives, and optimize storage on your Linux system.<br>
+- Mastering the gzip command will make file management more efficient and help you save disk space, especially when dealing with large files or backups.
