@@ -240,7 +240,7 @@ follows:
 A common use of the Linux tar command is to create an archive of a subdirectory. For instance,
 assuming there is a subdirectory named MyProject in the current directory,
 
-In that command, I used three options to create the tar archive:<br>
+In the below command, I used three options to create the tar archive:<br>
 • The letter c means "create archive".<br>
 • The letter v means "verbose", which tells tar to print all the filenames as they are added
 to the archive.<br>

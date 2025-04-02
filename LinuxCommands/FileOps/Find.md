@@ -26,3 +26,14 @@ if you're in `/home/user/Documents` and want to search for files in `/home/user/
 ## Seaching in current directory
 
 `find ./ -name "*txt"`
+
+## listing all empty files
+
+`find ./ -empty`
+
+## Searching for files with specific permissions
+
+- This command is used to locate files within a directory that have specific permissions.<br>
+  `find ./ -perm 777`<br>
+  ❌ No, you cannot directly use symbolic permission values (rwx) in find -perm.<br>
+  ✅ You must use numeric (octal) values like 777, 664, 755, etc.<br>
