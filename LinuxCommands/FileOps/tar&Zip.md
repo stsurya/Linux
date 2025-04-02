@@ -68,3 +68,11 @@ For compressed archives the tar extract command looks like this:<br>
 
 - The gzip command in Linux is a versatile tool for compressing and decompressing files. By learning how to use gzip and its various options, you can easily manage file sizes, create compressed archives, and optimize storage on your Linux system.<br>
 - Mastering the gzip command will make file management more efficient and help you save disk space, especially when dealing with large files or backups.
+
+`gzip [Options] [filenames]`
+
+## gunzip command
+
+- The gunzip command in Linux is a popular tool for decompressing files compressed with `gzip`. It simplifies file unzipping, enhances file management, and optimizes disk space in Linux environments.
+
+`gunzip [Option] [archive name/file name]`
