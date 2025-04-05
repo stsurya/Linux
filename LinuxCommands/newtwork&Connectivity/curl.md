@@ -35,5 +35,7 @@ In this example, `-T uploadfile.txt` specifies the file to be uploaded (`uploadf
 
 `curl -u username:password https://example.com/api`<br>
 
-This -u flag is used to specify authentication details like username and password, and `curl` command will include these credentials in the request header when accessing `https://example.com/api`. This is commonly used when accessing protected resources or APIs that require authentication.
-This -u flag is used to specify authentication details like username and password, and `curl` command will include these credentials in the request header when accessing `https://example.com/api`. This is commonly used when accessing protected resources or APIs that require authentication.
+This -u flag is used to specify authentication details like username and password, and `curl` command will include these credentials in the request header when accessing `https://example.com/api`. <br>
+This is commonly used when accessing protected resources or APIs that require authentication.<br>
+This -u flag is used to specify authentication details like username and password, and `curl` command will include these credentials in the request header when accessing `https://example.com/api`.<br>
+This is commonly used when accessing protected resources or APIs that require authentication.
