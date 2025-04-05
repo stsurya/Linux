@@ -28,3 +28,12 @@ In addition to downloading, `curl` can also upload files to a server using vario
 `curl -T [File Name] [URL]`<br>
 `curl -T uploadfile.txt ftp://example.com/upload/`<br>
 In this example, `-T uploadfile.txt` specifies the file to be uploaded (`uploadfile.txt`). The `-T` flag is used to upload a file with FTP. `curl` then sends the specified file to the FTP server located at `ftp://example.com/upload/`. This is useful for automating file uploads or transferring files via FTP from the command line.<br>
+
+## Handling authentication
+
+`curl` supports multiple authentications like Basic, Digest, OAuth. You can specify authentication credentials using the `-u` flag:<br>
+
+`curl -u username:password https://example.com/api`<br>
+
+This -u flag is used to specify authentication details like username and password, and `curl` command will include these credentials in the request header when accessing `https://example.com/api`. This is commonly used when accessing protected resources or APIs that require authentication.
+This -u flag is used to specify authentication details like username and password, and `curl` command will include these credentials in the request header when accessing `https://example.com/api`. This is commonly used when accessing protected resources or APIs that require authentication.
