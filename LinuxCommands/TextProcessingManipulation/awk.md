@@ -17,3 +17,26 @@ $2 = second field<br>
 $0 = entire line<br>
 
 **Records:** Each line is treated as a record.<br>
+
+### example:
+
+`cat > employee.txt`
+
+```
+ajay manager account 45000
+sunil clerk account 25000
+varun manager sales 50000
+amit manager account 47000
+tarun peon sales 15000
+deepak clerk sales 23000
+sunil peon sales 13000
+satvik director purchase 80000
+```
+
+`awk '/manager/ {print}' employee.txt`
+
+```
+ajay manager account 45000
+varun manager sales 50000
+amit manager account 47000
+```
