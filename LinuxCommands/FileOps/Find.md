@@ -37,3 +37,20 @@ if you're in `/home/user/Documents` and want to search for files in `/home/user/
   `find ./ -perm 777`<br>
   ❌ No, you cannot directly use symbolic permission values (rwx) in find -perm.<br>
   ✅ You must use numeric (octal) values like 777, 664, 755, etc.<br>
+
+# Locate Command
+
+- `locate` command quickly searches for files by name using a prebuild database.
+- `locate` command doesn't care about your current directory.It searches the entire indexed database, which includes paths like /etc, /home, /usr, etc.You don’t give it a path — you just give it a file name or pattern.
+
+`locate file_name`
+
+**⚡ Pros:**
+
+- Super fast because it doesn't search the disk in real time.
+- Good for quick name-based lookups.
+
+**⚠️ Cons:**
+
+- Might be outdated if files were recently added/deleted.
+- Doesn't let you filter by size, date, permissions, etc.
