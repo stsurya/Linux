@@ -21,4 +21,4 @@ The `sed` command is a text manipulation tool used to perform basic text transfo
 
 `sed 's/unix/linux/3g' geekfile.txt`
 
-- Replacing from 3rd occurence in line
+- Replacing from 3rd occurence in line.
