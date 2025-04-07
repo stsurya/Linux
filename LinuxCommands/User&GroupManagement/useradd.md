@@ -1,6 +1,16 @@
 # useradd
 
-- `sudo useradd <username>` won't ask for password and other details. This is non-interactive.
+`useradd` is a command in Linux that is used to add user accounts to your system. It is just a symbolic link to adduser command in Linux and the difference between both of them is that useradd is a native binary compiled with the system whereas adduser is a Perl script that uses useradd binary in the background. <br>
+
+It makes changes to the following files:<br>
+
+/etc/passwd<br>
+/etc/shadow<br>
+/etc/group<br>
+/etc/gshadow<br>
+creates a directory for new user in /home<br>
+
+- `sudo useradd <username>` won't ask for password and other details. This is non-interactive.<br>
 - `sudo adduser <username>` will ask for passowrd and it is more user-friendly and suitable for standard user setups.
 
 ## Automation script to create a user
