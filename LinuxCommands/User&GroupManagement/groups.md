@@ -15,3 +15,7 @@ Changing the groupname
 
 Changing the group ID
 `sudo groupmod -g 1234 groupname`
+
+# groupdel command
+
+`groupdel [options] group_name`
