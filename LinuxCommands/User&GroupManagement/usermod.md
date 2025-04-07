@@ -24,3 +24,7 @@ The information of a user is stored in the following files:<br>
 ## to change user login name
 
 `sudo usermod -l test_account test_user`
+
+## Adding user to the group
+
+`usermod -aG groupname username`
