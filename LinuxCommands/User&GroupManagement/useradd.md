@@ -47,3 +47,15 @@ echo "✅ User '$username' created and added to sudo group."
 ## Create User with a Comment
 
 `sudo useradd -c "This is a test user" test_user`
+
+## Set Password Expiration to 90 Days
+
+`sudo chage -M 90 user_name`
+
+## Set a Warning Period Before Expiration
+
+`sudo chage -W 7 user_name`
+
+## changing user password
+
+`passwd username`
