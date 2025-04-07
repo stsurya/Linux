@@ -59,3 +59,11 @@ echo "✅ User '$username' created and added to sudo group."
 ## changing user password
 
 `passwd username`
+
+## lock a user account
+
+`passwd -l username`
+
+## Unlock a user account
+
+`passwd -u username`
