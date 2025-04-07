@@ -3,6 +3,8 @@
 - `sudo useradd <username>` won't ask for password and other details. This is non-interactive.
 - `sudo adduser <username>` will ask for passowrd and it is more user-friendly and suitable for standard user setups.
 
+## Automation script to create a user
+
 ```
 #!/bin/bash
 
@@ -37,3 +39,11 @@ chage -d 0 "$username"
 
 echo "✅ User '$username' created and added to sudo group."
 ```
+
+## Creating a user with expiry date
+
+`sudo useradd -e 2025-09-21 test_user`
+
+## Create User with a Comment
+
+`sudo useradd -c "This is a test user" test_user`
