@@ -150,3 +150,16 @@ sudo firewall-cmd --reload
 | Apply changes      | `firewall-cmd --reload`                                                         |
 
 ---
+
+`--permanent` means ?<br>
+Make the firewall rule persist even after a system reboot or firewalld reload.<br>
+
+When you run a command with --permanent, you're adding the rule to the permanent configuration stored in files under /etc/firewalld.<br>
+
+- But the change doesn't take effect immediately — until you reload<br>
+
+We have three basic Policies. Let’s discuss Some Basic Operations and their Syntax:<br>
+
+**DROP:** It can block an incoming signal, which basically states that the firewall is blocked for that particular IP.<br>
+**ACCEPT:** It allows the IP we provide to make users go into the system.<br>
+**REJECT:** It works similarly to Drop, but in ‘drop‘ the sender is blocked without any notification whereas in ‘reject‘ a message states the reason for not being able to connect.<br>
