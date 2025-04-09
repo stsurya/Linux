@@ -163,3 +163,12 @@ We have three basic Policies. Let’s discuss Some Basic Operations and their Sy
 **DROP:** It can block an incoming signal, which basically states that the firewall is blocked for that particular IP.<br>
 **ACCEPT:** It allows the IP we provide to make users go into the system.<br>
 **REJECT:** It works similarly to Drop, but in ‘drop‘ the sender is blocked without any notification whereas in ‘reject‘ a message states the reason for not being able to connect.<br>
+
+To allow a specific IP:
+`sudo firewall-cmd --permanent --zone=public --add-rich-rule='rule family="ipv4" source address="20.40.3.3" accept'`
+`sudo firewall-cmd --reload`
+
+Restric to port or protocal:
+
+`sudo firewall-cmd --permanent --zone=public --add-rich-rule='rule family="ipv4" source address="20.40.3.3" port port=22 protocol=tcp accept'`
+`sudo firewall-cmd --reload`
