@@ -1,3 +1,7 @@
+Explicit declaration of array:
+
+`declare -a ArrayName`
+
 arr=(1 2 3 4 "str1") <br>
 
 - There should be no commans in array.<br>
