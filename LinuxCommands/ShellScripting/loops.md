@@ -13,3 +13,10 @@ do<br>
 &nbsp;&nbsp;<command 2><br>
 &nbsp;&nbsp;<etc><br>
 done<br>
+
+## until loop
+
+until [ condition ]<br>
+do<br>
+&nbsp;&nbsp;commands<br>
+done<br>
