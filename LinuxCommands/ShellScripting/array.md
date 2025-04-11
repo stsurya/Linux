@@ -11,3 +11,4 @@ arr=(1 2 3 4 "str1") <br>
 - echo ${#str} --> Length of string.
 - echo ${#arr[@]} --> Length of an array.
 - In bash, `${array_name}` is not treated as the whole array. It is equivalent to ${array_name[0]} — i.e., the value at index 0 only.
+- Because Bash doesn’t treat the variable pr alone as representing the entire array. Unlike higher-level languages (like Python or JavaScript), Bash doesn’t automatically expand full arrays unless explicitly told using [@] or [*].
