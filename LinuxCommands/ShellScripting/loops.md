@@ -1,13 +1,13 @@
 ## while loop
 
-while [ condition ]
-do
-&nbsp;&nbsp;statements
-done
+while [ condition ] <br>
+do<br>
+&nbsp;&nbsp;statements<br>
+done<br>
 
-for <var> in <value1 value2 ... valuen>
-do
-&nbsp;&nbsp;<command 1>
-&nbsp;&nbsp;<command 2>
-&nbsp;&nbsp;<etc>
-done
+for <var> in <value1 value2 ... valuen><br>
+do<br>
+&nbsp;&nbsp;<command 1><br>
+&nbsp;&nbsp;<command 2><br>
+&nbsp;&nbsp;<etc><br>
+done<br>
