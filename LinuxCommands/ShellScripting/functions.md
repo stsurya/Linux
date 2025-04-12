@@ -31,3 +31,18 @@ is_odd 64
 ```
 
 - These functions use the `exit` command to stop the shell entirely. This can be useful for error handling or when a certain condition requires the script to stop immediately.
+
+### return in functions:
+
+- return is used to send exit statuses(0-225), whereas 0 indicates success and anyohter value indicates failure. So basically return command won't return values.
+- Instead of return user `echo` command to return values.
+
+```
+#!/bin/bash
+
+get_sum(){
+&nbsp;echo $(($1 + $2))  # Use echo instead of return
+}
+
+echo "$(get_sum 10 20)"  # This will now correctly print 30
+```
