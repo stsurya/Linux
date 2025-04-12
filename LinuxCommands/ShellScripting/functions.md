@@ -29,3 +29,5 @@ is_odd(){
 }
 is_odd 64
 ```
+
+- These functions use the `exit` command to stop the shell entirely. This can be useful for error handling or when a certain condition requires the script to stop immediately.
