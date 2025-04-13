@@ -6,6 +6,3 @@ for var in ${array[@]}
 do 
     echo $var
 done
-
-
-z={1..5}
