@@ -15,3 +15,15 @@ arr=(1 2 3 4 "str1") <br>
 - `echo ${arr[@]:2}` --> Printing elements from index 2.
 - `echo ${arr[@]:1:3}` --> Printing elemtns form index 1 to 3. Inclusive of index 3.
 - `unseet ${arr[0]}` --> Deleting an element from array at index 0.
+
+for handlong float values in bash:
+
+- Bash natively won't support float values. But by using bc we can do it.
+
+`echo "scale=2; 10 / 3" | bc`
+
+Output: 3.33
+
+- scale=2 means 2 digits after the decimal
+
+- | bc sends the expression to the bc calculator
