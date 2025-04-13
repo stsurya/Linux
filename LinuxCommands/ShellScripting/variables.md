@@ -27,3 +27,5 @@ In this case the local variable is (name) with the value of Jayesh. Local variab
 These variables are commonly used to configure the behavior script and programs that are run by shell. Environment variables are only created once, after which they can be used by any user.
 
 `export PATH=/usr/local/bin:$PATH` would add `/usr/local/bin` to the beginning of the shell’s search path for executable programs.
+
+- Each variable is by default treated as a string in bash.

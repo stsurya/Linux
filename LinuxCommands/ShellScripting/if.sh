@@ -8,3 +8,6 @@ then
 else
     echo "Nihgt"
 fi
+
+- Best practice is to use -lt, -eq, -gt while companring numerbic operations.
+- For string use >,<,==
