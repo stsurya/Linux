@@ -11,3 +11,5 @@ echo ${str:startIndex:Length}
 start: 1 → Start from the second character.
 
 length: 2 → Extract 2 characters starting from index 1.
+
+${#str} --> String length
