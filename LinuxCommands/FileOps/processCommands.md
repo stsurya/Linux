@@ -26,3 +26,7 @@ COMMAND: Command or process name<br>
 - `atop` is a powerful and interactive system and process monitor for Linux that provides detailed information about system resources and processes.<br>
 
 **Summary:**For instance, ps provides a snapshot of processes, while top and htop offer real-time monitoring. atop gives detailed insights, and pgrep finds processes based on criteria.
+
+### Difference betwwen ps -ef and ps aux
+
+In ps aux you can get CPU and MEM details whereas in pd -ef you can't get that
