@@ -18,5 +18,5 @@ Read and write for Owner, and Read-only for the group and other:<br>
 
 - `=` operator gives the exact permissions and overwrites the exisitng permissions.<br>
   `chmod [who]=[permissions] filename`<br>
-  🔹 who → u (user), g (group), o (others), a (all)<br>
+  🔹 who → u (owner), g (group), o (others), a (all)<br>
   🔹 permissions → r (read), w (write), x (execute)<br>
