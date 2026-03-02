@@ -9,3 +9,5 @@
 - The `du` command in Linux is a powerful utility that allows users to analyze and report on disk usage within directories and files.
 
 `du [options] [directory/file]`
+
+`du *` - this command lists the disk usage utilization of each file in the current directory.
