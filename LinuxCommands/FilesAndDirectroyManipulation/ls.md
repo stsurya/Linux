@@ -10,14 +10,13 @@ The ls command is used to list all files and directories in the Linux terminal. 
 ## **1. Listing Options**
 
 | Option  | Description                            | Example     |
-| ------- | -------------------------------------- | ----------- | ------- |
+| ------- | -------------------------------------- | ----------- |
 | `ls`    | List files in a directory (default)    | `ls`        |
 | `ls -l` | Long format (detailed info)            | `ls -l`     |
 | `ls -a` | Show hidden files (`.*` files)         | `ls -a`     |
 | `ls -A` | Show hidden files, except `.` and `..` | `ls -A`     |
 | `ls -d` | Show only directories (not contents)   | `ls -d */`  |
 | `ls -R` | List contents recursively              | `ls -R`     |
-| `ls -F` | Append indicators (`/`, `*`, `@`, `    | `) to files | `ls -F` |
 | `ls -h` | Human-readable sizes (works with `-l`) | `ls -lh`    |
 | `ls -i` | Show inode numbers of files            | `ls -i`     |
 
