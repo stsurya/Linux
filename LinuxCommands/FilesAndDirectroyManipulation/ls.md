@@ -33,3 +33,7 @@ The ls command is used to list all files and directories in the Linux terminal. 
 | `ls --sort=size` | Sort by size                             | `ls --sort=size` |
 
 `ls -l`: It display the deatiled info like Permissions, Owner, Group, Size, Last Modified Time and File Name.
+
+## ls commands:
+
+`ls -ltra` - It'll list down all the files with time modification and reverse sorting, which means the latest modified file is at the bottom.
